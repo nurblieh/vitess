@@ -110,5 +110,6 @@ func main() {
 		// to update our state, so closing it in OnClose()
 		topo.CloseServers()
 	})
+	log.Infof("vttablet startup complete! (remove this msg after Feb, 2015).")
 	servenv.RunDefault()
 }
